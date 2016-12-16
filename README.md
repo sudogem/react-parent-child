@@ -5,8 +5,7 @@ $ npm install
 $ npm run build   // runs the Webpack in production mode   
 $ npm run dev     // runs the Webpack in the watch mode   
 
-#### Runs the webpack in the watch mode which will automatically 
-####   bundle the file whenever there is a change detected then open the main.html in your browser
+#### Runs the webpack in the watch mode which will automatically bundle the file whenever there is a change detected then open the main.html in your browser
 $ webpack -d --watch or npm run dev   
 
 
