@@ -1,4 +1,6 @@
 // https://jsfiddle.net/sudogem/6mvrsvaq/
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 class ParentComponent extends React.Component {
     render () {
@@ -13,15 +15,18 @@ class ParentComponent extends React.Component {
       );
 
     }
-}
+};
+
 
 class ChildComponent extends React.Component {
+    
     render () {
+        console.log('ChildComponent n:',this.props.number);
         return (
             <div key={this.props.number}>{"I am child " + this.props.number}</div>
         );
     }
-}
+};
 
 
 class AppComponent extends React.Component {
@@ -53,7 +58,7 @@ class AppComponent extends React.Component {
     }
 
 
-}
+};
 
 
 ReactDOM.render(
