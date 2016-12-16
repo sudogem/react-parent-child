@@ -1,8 +1,8 @@
 # react-parent-child
 
 #### How to install:   
-$ npm install   // runs the Webpack in production mode
-$ npm run dev   // runs the Webpack in the watch mode
+$ npm install   // runs the Webpack in production mode   
+$ npm run dev   // runs the Webpack in the watch mode   
 
 #### To install the modules individually:
 $ npm install react react-dom --save   
