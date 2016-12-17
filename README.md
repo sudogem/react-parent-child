@@ -2,8 +2,11 @@
 
 #### How to install everything:   
 $ npm install   
-$ npm run build   // runs the Webpack in production mode   
+Once installed successfully, you can run the app in two(2) different ways:
+$ npm run build   <em>// runs the Webpack in production mode</em>   
 $ npm run dev     // runs the Webpack in the watch mode   
+
+When running `npm run build` make sure that you physically delete the files inside build/ folder.
 
 #### Runs the webpack in the watch mode which will automatically bundle the file whenever there is a change detected then open the main.html in your browser
 $ webpack -d --watch or npm run dev   
