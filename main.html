@@ -3,8 +3,18 @@
     <style type="text/css">
       #children-pane {width: 80%;}
       .card {border:1px solid red;}
-      .child {border:1px solid green; width: 60%;}
-      .actionBtn{width: 20%;}
+      .contentData {width: 100%;}
+      .child {
+        border:1px solid green; 
+        width: 60%;
+        display: flex;                  /* establish flex container */
+        flex-direction: row;            /* default value; can be omitted */
+        flex-wrap: nowrap;              /* default value; can be omitted */
+        justify-content: flex-start;    /* switched from default (flex-start, see below) */
+        padding-top: 5px;
+      }
+      .actionBtn{width: 55px;border:1px solid darkviolet;}
+      .actionBtn a {padding-left: 3px;}
     </style>
     <meta charset="utf-8">
     <title>React.js using NPM, Babel6 and Webpack</title>
